@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+#root {
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 5rem; 
+    color: #FF1493;
+}
