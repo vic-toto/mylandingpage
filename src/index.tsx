@@ -1,16 +1,12 @@
+// index.tsx
 import React from 'react';
-import './App.css'; // Import the CSS file
+import ReactDOM from 'react-dom';
+import App from './App';
+import './index.css'; // Import global styles if needed
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to My Personal Landing Page</h1>
-        <p>Feel free to customize this page according to your preferences.</p>
-      </header>
-    </div>
-  );
-}
-
-export default App;
-
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

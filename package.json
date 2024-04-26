@@ -3,9 +3,16 @@
     "start": "react-scripts start"
   },
   "dependencies": {
+    "@react-three/drei": "^9.105.4",
+    "@react-three/fiber": "^8.16.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "tailwind-merge": "^2.3.0",
+    "three": "^0.164.1",
+    "three-globe": "^2.31.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.79",
